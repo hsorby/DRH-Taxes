@@ -2,7 +2,7 @@ import sys
 
 def tax_input_checker(typed_input):
     """
-    returns true if the input string cannot be converted to a float, and false if otherwise
+    Returns true if the input string cannot be converted to a float, and false if otherwise
     """
     try:
         f = float(typed_input)
@@ -11,24 +11,27 @@ def tax_input_checker(typed_input):
     return True
 
 def admission():
+    """
+    Recieves two inputs from the command line and makes sure they can be passed as floats to the individual and corporate modules
+    """
     
     if len(sys.argv) == 3:
         
         income = sys.argv[1]
-        
+
+
         if tax_input_checker(income) == False:
-            print 'please re-enter your income in an appropriate format'
-            
+            exit("Error Code: HUGH")
 
         losses = sys.argv[2]
         
         if tax_input_checker(losses) == False:
-            print 'please re-enter your losses in an appropriate form'
-        
+            exit("Error Code: JELLYBEAN")
+
+                
         return income, losses
     else:
-        print "please input your income followed by your losses"
-        exit()
+        exit("Error Code: PANDA")
 
     
 
