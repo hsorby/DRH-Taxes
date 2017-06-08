@@ -38,6 +38,7 @@ Under the current tax laws of of the DRH, taxes are calculated as follows:
 ### Calculate tax as individual
 ### Calculate tax as corporation
 ### Output
+Define the function tax_compare that uses corporate and individual tax as inputs , computes difference. The code returns two items: amount saved in dollars and a string which is statement of recommendation. 
 
 ## Quality control
 
