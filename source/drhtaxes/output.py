@@ -1,8 +1,8 @@
 def tax_compare(corp,tax):
     '''
-Define the function tax_compare that uses corp and tax as inputs, it compares them by computing the difference between the two actual taxes and returns the amount of money saved, as well as a statement of recommendation''
+    Define the function tax_compare that uses corp and tax as inputs, it compares them by computing the difference between the two actual taxes and returns the amount of money saved, as well as a statement of recommendation''
 
-difftax is a numerical variable that stores the absolute value of the difference between corporate and individual taxes
+    difftax is a numerical variable that stores the absolute value of the difference between corporate and individual taxes
     '''
 
     difftax = abs(corp-tax);
