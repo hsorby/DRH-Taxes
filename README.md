@@ -41,13 +41,24 @@ Under the current tax laws of of the DRH, taxes are calculated as follows:
 
 ## Limitations
 
+## Error Codes
+
+### Error Code: HUGH
+This error code means that your typed input in the first command line argument cannot be converted into a float value, likely due to the presence of non-numeric characters, or multiple floating points.
+
+### Error Code: JELLYBEAN
+This error code means that your typed input in the second command line argument cannot be converted into a float value, likely due to the presence of non-numeric characters, or multiple floating points.
+
+### Error Code: PANDA
+This error code means you have supplied an incorrect number of input arguments, there should only be two, income, followed by losses.
+
 ## List of contributors
 
 ## Licencing
 
 ## Acknowledgements
 
-## Fuding statement
+## Funding statement
 
 ## Competing interests
 
