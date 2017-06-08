@@ -11,8 +11,7 @@ def main():
     
     print income, losses
         
-
-
+   
 if __name__ == '__main__':
     main()
 
