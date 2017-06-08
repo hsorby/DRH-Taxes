@@ -19,7 +19,16 @@ Under the current tax laws of of the DRH, taxes are calculated as follows:
 
 ## Running the programme using the test data
 ### Steps
+
+### Corporate tax calculation
+- Write a script to calculate corporate tax
+- Run unit test
+- Push and pull request to respository
+- Amend according to feedback
+
 ### Expected output
+### Corporate tax calculation
+- Tax ($): integer or decimal when filing as a corporate 
 
 ## Implementation and architecture
 
@@ -37,12 +46,16 @@ Under the current tax laws of of the DRH, taxes are calculated as follows:
 ### Operating System
 
 ### Programming Language
+- Python
 
 ### Additional System Requirements
 
 ### Dependencies
 
 ## Input data requirements
+### Corporate tax calculation
+- Income ($): integer or decimal
+- Incurred loss ($): interger or decimal
 
 ## Limitations
 
