@@ -28,7 +28,7 @@ Under the current tax laws of of the DRH, taxes are calculated as follows:
 
 ### Expected output
 ### Corporate tax calculation
-- Tax when filing as a corporate
+- Tax ($): integer or decimal when filing as a corporate 
 
 ## Implementation and architecture
 
@@ -47,8 +47,8 @@ Under the current tax laws of of the DRH, taxes are calculated as follows:
 
 ## Input data requirements
 ### Corporate tax calculation
-- Income
-- Incurred loss
+- Income ($): integer or decimal
+- Incurred loss ($): interger or decimal
 
 ## Limitations
 
